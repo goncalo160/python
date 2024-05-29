@@ -1,0 +1,44 @@
+body {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+    margin: 20px;
+    background-image: url("https://img.freepik.com/fotos-premium/fundo-gradiente-de-cor-azul-suave_1000823-23498.jpg");
+    /* URL direto da imagem de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div {
+    background-color: #cecbcb00;
+    border: 7px solid #000000;
+    padding: 20px;
+    /* Increased padding for better readability */
+    border-radius: 5px;
+    white-space: pre-wrap;
+    /* Ensure the text wraps */
+    font-size: 20px;
+    /* Increased font size for larger text */
+}
+
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 30px;
+    /* Increased font size for the link */
+}
+
+a:hover {
+    text-decoration: underline;
+}
